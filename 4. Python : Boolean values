@@ -1,0 +1,20 @@
+print(bool)
+bool(5)
+bool(0)
+print(True)
+print(not True)
+print(8 > 9)
+print(8 == 9)
+print(9 < 9)
+
+class myclass():
+    def __len__(self):
+        return 0
+
+number = myclass()
+print(bool(number))
+
+def myFunction():
+    return True
+
+print(myFunction())
