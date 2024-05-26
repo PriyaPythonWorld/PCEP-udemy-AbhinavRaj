@@ -1,0 +1,14 @@
+name = "Priya"
+print("Hello, %s" % name)
+
+# ------------------------------------------------------------------------------------------------------
+
+Oranges = 300
+txt = "There are {:.2f} oranges on the tree"
+print(txt.format(Oranges))
+
+# ------------------------------------------------------------------------------------------------------
+
+# Multiple Values
+myOrder = "My dress is {blue}, {white} and a {green}."
+print(myOrder.format(blue="shirt",white="trouser", green="tie"))
