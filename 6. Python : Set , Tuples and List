@@ -1,0 +1,7 @@
+T = ("you", "me", "book")
+L = ["you", "me", "book"]
+S = {"you", "me", "book"}
+
+print(type(T))
+print(type(L))
+print(type(S))
